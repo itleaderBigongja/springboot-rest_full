@@ -1,0 +1,10 @@
+package com.example.restfulapi;
+
+public class RestfulApiExampleApplication {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
