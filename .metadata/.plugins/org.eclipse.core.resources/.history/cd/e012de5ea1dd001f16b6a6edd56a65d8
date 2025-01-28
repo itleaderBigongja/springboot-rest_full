@@ -23,6 +23,3 @@ Thumbs.db
 # 개발자가 만든 개인 설정 파일 무시
 config.properties
 secrets.json
-
-# metadata
-/.metadata/
