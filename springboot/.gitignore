@@ -1,0 +1,25 @@
+# 빌드 관련 파일 무시
+target/
+build/
+*.class
+
+# IDE 관련 파일 무시
+.idea/
+*.iml
+*.ipr
+*.iws
+.settings/
+.project
+.classpath
+
+# OS 관련 파일 무시
+.DS_Store
+Thumbs.db
+
+# 로그 파일 무시
+*.log
+*.out
+
+# 개발자가 만든 개인 설정 파일 무시
+config.properties
+secrets.json
