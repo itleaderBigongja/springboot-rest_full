@@ -41,3 +41,9 @@ config.ini
 
 # node modules
 node_modules/
+
+# classpath 설정
+.classpath/
+
+# gitignore 설정
+.gitignore

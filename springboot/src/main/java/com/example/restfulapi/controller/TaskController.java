@@ -1,5 +1,7 @@
 package com.example.restfulapi.controller;
 
+import org.springframework.web.bind.annotation.RestController;
+
 // java:HTTP 요청을 처리하는 Controller
 /** TaskController의 역할
  *  @RestController, 
@@ -12,6 +14,10 @@ package com.example.restfulapi.controller;
  * 
  * -> 클라이언트의 HTTP 요청을 처리하고, Task 모델을 사용하여 데이터를 관리하고, HTTP 응답을 생성 
  **/
+
+// 컨트롤러 클래스: HTTP 요청을 처리하고 응답을 반환
+@RestController
+
 public class TaskController {
 
 }
