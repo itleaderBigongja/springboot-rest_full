@@ -25,7 +25,7 @@ public class TaskModel {
 	public int getId() {
 		return id;
 	}
-	public String title() {
+	public String getTitle() {
 		return title;
 	}
 	public boolean getCompleted() {
