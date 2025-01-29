@@ -40,15 +40,23 @@
     </dependencies>
 
     <build>
-        <plugins>
-            <!-- Spring Boot Maven 플러그인: Spring Boot 애플리케이션을 패키징하고 실행하는 데 필요한 플러그인 -->
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <mainClass>com.example.restfulapi.RestfulApiExampleApplication</mainClass>
-                </configuration>
-            </plugin>
-        </plugins>
+     <plugins>
+         <plugin>
+             <groupId>org.apache.maven.plugins</groupId>
+             <artifactId>maven-compiler-plugin</artifactId>
+             <version>3.11.0</version>
+             <configuration>
+                 <source>17</source>
+                 <target>17</target>
+                 <annotationProcessorPaths>
+                     <path>
+                         <groupId>org.springframework.boot</groupId>
+                         <artifactId>spring-boot-starter-web</artifactId>
+                         <version>3.2.2</version> <!-- 사용 중인 Spring Boot 버전에 맞게 설정 -->
+                     </path>
+                 </annotationProcessorPaths>
+             </configuration>
+         </plugin>
+     </plugins>
     </build>
 </project>

@@ -1,21 +1,21 @@
 package com.example.restfulapi.model;
 
 // 할 일 정보를 나타내는 Task 클래스
-/** Task 역할
+/** TaskModel 역할
  *  ㅇ id, title, completed 속성을 가지는 자바 객체로 할 일 정보를 나타냅니다.
  *  ㅇ 데이터를 저장하고 이동하는 데 사용
  */
-public class Task {
+public class TaskModel {
 
 	private int id;				// 할 일 고유 식별자
 	private String title;		// 할 일 제목
 	private boolean completed;	// 할 일 완료 여부
 	
 	// 기본 생성자: String Boot가 객체를 생성할 때 사용
-	public Task() {};
+	public TaskModel() {};
 	
 	// 생성자 객체 초기화
-	public Task(int id, String title, boolean completed) {
+	public TaskModel(int id, String title, boolean completed) {
 		this.id = id;
 		this.title = title;
 		this.completed = completed;
@@ -46,6 +46,6 @@ public class Task {
 	// toString(디버깅 용이)
 	@Override
 	public String toString() {
-		return "Task{id = "+ id + ", title = " + title + ", completed = " + completed + "}";
+		return "TaskModel {id = "+ id + ", title = " + title + ", completed = " + completed + "}";
 	}
 }
