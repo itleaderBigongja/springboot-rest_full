@@ -25,4 +25,4 @@ config.properties
 secrets.json
 
 # metadata
-.metadata/
+/.metadata/
