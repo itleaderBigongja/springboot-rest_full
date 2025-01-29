@@ -1,0 +1,6 @@
+package com.example.restfulapi.controller;
+
+// java:HTTP 요청을 처리하는 Controller
+public class TaskController {
+
+}

@@ -1,0 +1,10 @@
+package com.example.restfulapi.model;
+
+// 할 일 정보를 나타내는 Task 클래스
+/** Task 역할
+ *  ㅇ id, title, completed 속성을 가지는 자바 객체로 할 일 정보를 나타냅니다.
+ *  ㅇ 데이터를 저장하고 이동하는 데 사용
+ */
+public class Task {
+
+}
