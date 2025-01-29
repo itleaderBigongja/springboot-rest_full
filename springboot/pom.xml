@@ -22,7 +22,7 @@
         	 2. spring-web        : Spring 웹 추상화 및 일반적인 웹 기능 제공
         	 3. jackson-databind  : JSON 데이터 직렬화/역직렬화 라이브러리
         	 4. tomcat-embed-core, tomcat-embed-el, tomcat-embed-websocket : 내장 톰캣 서버의 핵심 라이브러리
-        	 5. validation-api,    
+        	 5. validation-api, hibernate-validator : 데이터 유효성 검증 라이브러리
         -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
